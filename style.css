@@ -1,6 +1,6 @@
 body {
 
-  background: url(../img/wp37411.png) no-repeat center fixed;
+  background: url(img/wp37411.png) no-repeat center fixed;
   /* background: linear-gradient(to right , gray , white) ;  */
   font-family: 'Open Sans', sans-serif;
   /* text-align: center; */
@@ -49,21 +49,21 @@ ul li {
 }
 
 ul li:nth-child(1) {
-  background: url(../img/bien.png) no-repeat;
+  background: url(img/bien.png) no-repeat;
   background-size: contain;
   /* pour bien redimensionner le pouce par rapport au text */
   background-position: right;
 }
 
 ul li:nth-child(2) {
-  background: url(../img/mal.png) no-repeat;
+  background: url(img/mal.png) no-repeat;
   background-size: contain;
   /* pour bien redimensionner le pouce par rapport au text */
   background-position: right;
 }
 
 ul li:nth-child(3) {
-  background: url(../img/chat.png) no-repeat;
+  background: url(img/chat.png) no-repeat;
   background-size: contain;
   /* pour bien redimensionner le pouce par rapport au text */
   background-position: right;
