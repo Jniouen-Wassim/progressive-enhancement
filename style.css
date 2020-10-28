@@ -1,0 +1,247 @@
+body {
+
+  background: url(../img/wp37411.png) no-repeat center fixed;
+  /* background: linear-gradient(to right , gray , white) ;  */
+  font-family: 'Open Sans', sans-serif;
+  /* text-align: center; */
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  
+}
+
+.notification{
+  
+  top: 80px;
+  left: 1px ;
+  opacity:0.7;
+
+  margin-left:5px;
+  background: rgb(24, 5, 97);
+  position : fixed ;
+  margin-top: 15px;
+  background:#FFFFDD;
+  padding: 5px;
+  border:3px solid #DDDDCC;
+  width:100px;
+  font-weight:bold;
+  color: #333300;
+  /* rajoute le code nécessaire ici*/
+}
+
+header {
+  margin-top: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.child {
+  background-color: rgb(255, 251, 0);
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li {
+  margin: 3px auto;
+  padding-right: 25px;
+}
+
+ul li:nth-child(1) {
+  background: url(../img/bien.png) no-repeat;
+  background-size: contain;
+  /* pour bien redimensionner le pouce par rapport au text */
+  background-position: right;
+}
+
+ul li:nth-child(2) {
+  background: url(../img/mal.png) no-repeat;
+  background-size: contain;
+  /* pour bien redimensionner le pouce par rapport au text */
+  background-position: right;
+}
+
+ul li:nth-child(3) {
+  background: url(../img/chat.png) no-repeat;
+  background-size: contain;
+  /* pour bien redimensionner le pouce par rapport au text */
+  background-position: right;
+}
+
+
+.blocSection {
+  margin: 40px;
+  padding: 20px;
+  background-color: rgb(61, 88, 116);
+  border: 1px solid rgb(251, 251, 251);
+  box-shadow: 8px 8px 15px black;
+
+  display: flex;
+
+}
+
+p {
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 20px;
+
+}
+
+.text {
+  
+  padding: 10%;
+  width: 65%;
+  flex-direction: row;
+  background-color: rgb(129, 128, 133);
+  font-size: 15px;
+  border-left: 5px solid white;
+
+}
+
+.imagePosition {
+
+  width: 60%;
+  padding-right: 10px;
+  flex-direction: row;
+
+}
+
+.imagePosition2 {
+  padding-top: 20%;
+  width: 65%; 
+  padding-right: 10px;
+  flex-direction: row;
+
+}
+
+img {
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: white;
+  border-radius: 30px;
+  /* display: flex; /*pour centré*/
+  /* margin: auto; /*pour centré*/
+
+}
+
+
+header,
+h1 {
+
+  text-align: center;
+  font-size: 50px;
+
+}
+
+h2 {
+
+  font-size: 30px;
+  text-align: center;
+
+}
+
+table {
+
+  margin: auto;
+  text-align: center;
+
+}
+
+table,
+th,
+td {
+
+  /* border-top-right-radius: 30px; rendu top sur les th et td du tableau */
+  padding: 10px;
+  color: black;
+  border: 2px dashed black;
+  border-collapse: collapse;
+  /*fusion des bordure important !!!!! */
+  text-align: center;
+
+}
+
+table tr:nth-child(1),
+tr:nth-child(3),
+tr:nth-child(5) {
+  background-color: lemonchiffon;
+}
+
+table tr:nth-child(2),
+tr:nth-child(4) {
+  background-color: rgb(138, 138, 138);
+}
+
+
+a {
+  text-align: center;
+  font-size: 100%;
+}
+
+a:hover {
+  text-align: center;
+  font-size: 150%;
+  color: lightcoral;
+
+}
+
+h1:hover {
+
+  font-size: 26px;
+  padding-left: 1%;
+
+}
+
+
+.good {
+  color: green;
+  text-transform: uppercase;
+}
+
+.bad {
+
+  color: red;
+  text-transform: uppercase;
+
+}
+
+/* BLOCKQUOTE {
+padding-left: 15px;
+margin-top: 80px;
+margin-bottom: 80px;
+border-left: 3px solid Firebrick;
+background-color: rgb(134, 134, 134);
+width: 45%;
+margin: auto;
+font-size: 160%;
+} */
+
+.villageois {
+  padding-left: 15px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-left: 3px solid rgb(92, 178, 34);
+  background-color: rgb(134, 134, 134);
+  width: 45%;
+  margin: auto;
+  font-size: 160%;
+
+}
+
+.fermier {
+  padding-left: 15px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-left: 3px solid rgb(178, 99, 34);
+  background-color: rgb(134, 134, 134);
+  width: 45%;
+  margin: auto;
+  font-size: 160%;
+
+}
+
+footer{
+  margin: 20px;
+}
