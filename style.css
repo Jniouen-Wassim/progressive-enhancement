@@ -1,12 +1,11 @@
 body {
 
   background: url(img/wp37411.png) no-repeat center fixed;
-  /* background: linear-gradient(to right , gray , white) ;  */
+  background-size: cover;
   font-family: 'Open Sans', sans-serif;
-  /* text-align: center; */
-  width: 90%;
   text-align: center;
   margin: auto;
+  object-fit: cover;
 
 }
 
